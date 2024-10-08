@@ -1,0 +1,198 @@
+intent,text,clean_text
+book_appointment,i have a problem with my car and i want to bring it in for a service,problem car want bring service
+book_appointment,my name is mary smith and i would like to have my car repaired will you be open tomorrow,name mary smith would like car repaired open tomorrow
+book_appointment,i would like to book the earliest appointment available to come drop off my car,would like book earliest appointment available come drop car
+book_appointment,i want to book an appointment,want book appointment
+book_appointment,i would like to schedule an appointment for an oil change for tuesday if possible,would like schedule appointment oil change tuesday possible
+book_appointment,hi my name is sarah jones i would like to bring in my car for a service this week in the morning is it possible,hi name sarah jones would like bring car service week morning possible
+book_appointment,i'm calling to make an inspection appointment my car needs to be looked at,im calling make inspection appointment car need looked
+book_appointment,good evening i would want to make a repair appointment for my car,good evening would want make repair appointment car
+book_appointment,my car is making a strange noise when is the next appointment you have available,car making strange noise next appointment available
+book_appointment,i want to come in tomorrow to have my car looked at,want come tomorrow car looked
+book_appointment,hey there i need to make an appointment to repair my air filter,hey need make appointment repair air filter
+book_appointment,hello i'd like to bring my car in for a basic servicing,hello id like bring car basic servicing
+book_appointment,i want someone to fix my car tomorrow,want someone fix car tomorrow
+book_appointment,i want to make an appointment,want make appointment
+book_appointment,i want to come in tomorrow morning to have my car repaired,want come tomorrow morning car repaired
+book_appointment,can i book an appointment for my car for next week,book appointment car next week
+book_appointment,the engine of my car seems to be overheating; can you please set up an appointment for tomorrow morning,engine car seems overheating please set appointment tomorrow morning
+book_appointment,i need to have an appointment scheduled for today afternoon if possible,need appointment scheduled today afternoon possible
+book_appointment,i would like to schedule an appointment for an oil change,would like schedule appointment oil change
+book_appointment,hi i was hoping to schedule an appointment to get my tire patched,hi hoping schedule appointment get tire patched
+book_appointment,hi my name is jessica parker i'd like to bring my car in for service,hi name jessica parker id like bring car service
+book_appointment,i need to get my car serviced and would appreciate your help with setting up an appointment next week,need get car serviced would appreciate help setting appointment next week
+book_appointment,hello can you please assist with setting up an appointment for car servicing sometime this week,hello please assist setting appointment car servicing sometime week
+book_appointment,good morning my name is pat wilson i am calling because i got in an accident with my car the other day and i need to get it fixed,good morning name pat wilson calling got accident car day need get fixed
+book_appointment,i need an appointment for body work,need appointment body work
+book_appointment,i need an appointment for my car,need appointment car
+book_appointment,i need an appointment,need appointment
+book_appointment,which is the best day and time to bring my porsche for inspection,best day time bring porsche inspection
+book_appointment,i am calling to schedule a service appointment as soon as possible,calling schedule service appointment soon possible
+book_appointment,my car is due for a technical check when can i bring it in,car due technical check bring
+book_appointment,i'd like to have an appointment for checking the engine of my car for next week,id like appointment checking engine car next week
+book_appointment,my name is maria smith i want to schedule a car service appointment,name maria smith want schedule car service appointment
+book_appointment,i want to make an appointment for an oil change and some inspection,want make appointment oil change inspection
+book_appointment,how do i get an appointment,get appointment
+book_appointment,hi my car is acting weird so i would like to schedule an inspection,hi car acting weird would like schedule inspection
+book_appointment,i need an appointment for my car when do you have slots,need appointment car slot
+book_appointment,i need to make an appointment to get the battery replaced,need make appointment get battery replaced
+book_appointment,hi i'm calling to book an appointment,hi im calling book appointment
+book_appointment,i would like to make an appointment,would like make appointment
+book_appointment,i need to schedule a car service appointment,need schedule car service appointment
+book_appointment,hi i have some issues with my bmw and i would like to bring it in for a service,hi issue bmw would like bring service
+book_appointment,i need to come in tomorrow for an oil change,need come tomorrow oil change
+book_appointment,can i schedule an appointment for this week,schedule appointment week
+book_appointment,please schedule an appointment for thursday afternoon,please schedule appointment thursday afternoon
+book_appointment,hi i was told that i need to bring my car in for service,hi told need bring car service
+book_appointment,hello i have a problem with my bmw and i want to bring it in for a service this friday if possible,hello problem bmw want bring service friday possible
+book_appointment,my car needs to have service done this week,car need service done week
+book_appointment,hi do you have any appointments for next week for oil change,hi appointment next week oil change
+book_appointment,can i schedule an appointment,schedule appointment
+book_appointment,hi this is jenny smith calling to see if it would be possible to have my car serviced,hi jenny smith calling see would possible car serviced
+user_date_proposal,are there any available slots in the coming week,available slot coming week
+user_date_proposal,what is the latest possible in the afternoon,latest possible afternoon
+user_date_proposal,is tomorrow afternoon available,tomorrow afternoon available
+user_date_proposal,i was hoping tomorrow at two pm,hoping tomorrow two pm
+user_date_proposal,maybe we could do thursday since i will be gone on friday and saturday,maybe could thursday since gone friday saturday
+user_date_proposal,no i am sorry i cannot what about next week wednesday,no sorry next week wednesday
+user_date_proposal,could i do two thirty on friday,could two thirty friday
+user_date_proposal,how about this friday,friday
+user_date_proposal,how about during the weekend,weekend
+user_date_proposal,yes that's fine can i push the appointment to thursday morning,yes thats fine push appointment thursday morning
+user_date_proposal,do you have anything later in the day i'm busy in the mornings,anything later day im busy morning
+user_date_proposal,i can come next week,come next week
+user_date_proposal,i rarely have time tuesday mornings but the afternoons are fine,rarely time tuesday morning afternoon fine
+user_date_proposal,what about later today,later today
+user_date_proposal,fine then i'll drop my truck tomorrow morning at eight,fine ill drop truck tomorrow morning eight
+user_date_proposal,no i am sorry i cannot what about saturday,no sorry saturday
+user_date_proposal,next month would be much better,next month would much better
+user_date_proposal,okay i don't think i would be able to make it until later that afternoon so let's aim for monday,okay dont think would able make later afternoon let aim monday
+user_date_proposal,could i come in at noon instead of two pm,could come noon instead two pm
+user_date_proposal,i am busy on wednesday but i can come thursday or next week,busy wednesday come thursday next week
+user_date_proposal,i think eight am is pushing it how about nine,think eight pushing nine
+user_date_proposal,i need my car for the week but i can drop it off during the weekend,need car week drop weekend
+user_date_proposal,two thirty pm will simply not work as well as one fifteen pm,two thirty pm simply work well one fifteen pm
+user_date_proposal,when is the next available appointment this week,next available appointment week
+user_date_proposal,how about before the end of next week,end next week
+user_date_proposal,i am fine with anytime on thursday or friday,fine anytime thursday friday
+user_date_proposal,an evening slot will be preferred,evening slot preferred
+user_date_proposal,i don't believe thursday will work would wednesday or friday be okay,dont believe thursday work would wednesday friday okay
+user_date_proposal,thank you i have commitments tomorrow morning but i can come in during the afternoon or the next day,thank commitment tomorrow morning come afternoon next day
+user_date_proposal,let's organize an appointment in the morning because i don't want to have to run around in the afternoon,let organize appointment morning dont want run around afternoon
+user_date_proposal,mornings work better for me,morning work better
+user_date_proposal,i need an appointment when do you have one available on any afternoon,need appointment one available afternoon
+user_date_proposal,my schedule is free on wednesdays and thursdays afternoon,schedule free wednesday thursday afternoon
+user_date_proposal,is it doable to book a slot at four or five o'clock since i'm unavailable at one,doable book slot four five oclock since im unavailable one
+user_date_proposal,ten thirty am sits better with me than twelve pm does,ten thirty sits better twelve pm
+user_date_proposal,ten thirty am sits better with me than twelve pm does,ten thirty sits better twelve pm
+user_date_proposal,i can't come in on friday but i can on thursday,cant come friday thursday
+user_date_proposal,this week does not work for me do you have time slots next week,week work time slot next week
+user_date_proposal,actually let's make it on thursday next week at eleven,actually let make thursday next week eleven
+user_date_proposal,i will be free next monday,free next monday
+user_date_proposal,no either next monday or tuesday would work great,no either next monday tuesday would work great
+user_date_proposal,wednesday will work unless your only times are before two pm,wednesday work unless time two pm
+user_date_proposal,thursday doesn't work but monday or tuesday next week would be perfect,thursday doesnt work monday tuesday next week would perfect
+user_date_proposal,i actually need my car at eleven am could i bring it by around one pm instead,actually need car eleven could bring around one pm instead
+user_date_proposal,i'm helping my friend move into her new house on thursday so let's aim for next week,im helping friend move new house thursday let aim next week
+user_date_proposal,i'll be with my family all day saturday so i would like to come earlier in the week,ill family day saturday would like come earlier week
+user_date_proposal,i probably can't make it happen then so can i make an appointment for next week,probably cant make happen make appointment next week
+user_date_proposal,this is not that convenient how about next week,convenient next week
+user_date_proposal,do you have any slots in the afternoon,slot afternoon
+user_date_proposal,yeah it's fine but i think i will bring my car tomorrow is that okay,yeah fine think bring car tomorrow okay
+user_date_proposal,evenings suit me better,evening suit better
+user_date_proposal,i can't come so early is there an availability later on the same date,cant come early availability later date
+user_date_proposal,on friday the thirteenth,friday thirteenth
+user_date_proposal,will the twenty third be okay,twenty third okay
+user_date_proposal,i can't bring it in until i get off work at three so the morning will not work,cant bring get work three morning work
+user_date_proposal,i want to come in as soon as possible maybe eight am rather than nine am or later,want come soon possible maybe eight rather nine later
+user_date_proposal,i have a meeting all morning but two pm should work,meeting morning two pm work
+user_date_proposal,what about early morning tomorrow,early morning tomorrow
+user_date_proposal,can i drop my car off tonight,drop car tonight
+user_date_proposal,well you should have given me the available time five thirty will do,well given available time five thirty
+user_date_proposal,can i bring the car sometime this week,bring car sometime week
+user_date_proposal,i can make wednesday afternoon work but the morning is impossible,make wednesday afternoon work morning impossible
+user_date_proposal,can i reschedule my appointment for ten am instead of eleven am,reschedule appointment ten instead eleven
+user_date_proposal,anytime tomorrow would be great can i come in around two thirty,anytime tomorrow would great come around two thirty
+user_date_proposal,put me down for thursday afternoon instead of wednesday,put thursday afternoon instead wednesday
+user_date_proposal,how about next week do you have something free,next week something free
+user_date_proposal,wednesday is great but tuesday is not,wednesday great tuesday
+user_date_proposal,would you happen to have space earlier than eleven am since i'm already double booked that afternoon,would happen space earlier eleven since im already double booked afternoon
+user_date_proposal,how about three pm,three pm
+user_date_proposal,i have to run errands all week can you schedule me for next week,run errand week schedule next week
+user_date_proposal,tomorrow wednesday,tomorrow wednesday
+user_date_proposal,i just got called into work today can i reschedule for tomorrow,got called work today reschedule tomorrow
+user_date_proposal,i need an appointment in the middle of the day if possible but i can't do this week next monday or tuesday would be best,need appointment middle day possible cant week next monday tuesday would best
+user_date_proposal,monday is too far how about thursday,monday far thursday
+user_date_proposal,doesn't work either could you check for wednesday,doesnt work either could check wednesday
+user_date_proposal,today in the afternoon,today afternoon
+user_date_proposal,i don't think i'll be able to come in tomorrow do you have anything on wednesday,dont think ill able come tomorrow anything wednesday
+user_date_proposal,i'm sure ten am would fit better in my schedule compared to three pm,im sure ten would fit better schedule compared three pm
+user_date_proposal,no actually thursday is good,no actually thursday good
+user_date_proposal,tomorrow is a no but thursday or friday could work,tomorrow no thursday friday could work
+user_date_proposal,do you have some time in the afternoon let's say one thirty or two,time afternoon let say one thirty two
+user_date_proposal,next week i am open except for wednesday and thursday,next week open except wednesday thursday
+user_date_proposal,do you have any time slot for tomorrow afternoon,time slot tomorrow afternoon
+user_date_proposal,something has come up in my schedule can i come in tomorrow instead of today,something come schedule come tomorrow instead today
+user_date_proposal,anything this thursday,anything thursday
+user_date_proposal,between those choices i would prefer wednesday to thursday,choice would prefer wednesday thursday
+user_date_proposal,no i'll be at work why don't we do it in the morning around nine will that work,no ill work dont morning around nine work
+user_date_proposal,if you have anything for tomorrow or if not next friday,anything tomorrow next friday
+user_date_proposal,is there any way i could come get this oil change before next week,way could come get oil change next week
+user_date_proposal,actually i wanted to drop it on friday then pick it on tuesday,actually wanted drop friday pick tuesday
+user_date_proposal,tomorrow is not good for me how about the day after tomorrow,tomorrow good day tomorrow
+user_date_proposal,how about tomorrow afternoon,tomorrow afternoon
+user_date_proposal,no doesn't work is there something on tuesday at seven pm,no doesnt work something tuesday seven pm
+user_date_proposal,i'm going to have to reschedule my appointment that's currently for tuesday does friday work,im going reschedule appointment thats currently tuesday friday work
+user_date_proposal,i am rather busy again are you sure there's no way to get my car dropped off wednesday,rather busy sure there no way get car dropped wednesday
+user_date_proposal,let's aim to schedule for midday instead of the late afternoon,let aim schedule midday instead late afternoon
+user_date_proposal,i can move things around to come in at eleven am rather than three pm,move thing around come eleven rather three pm
+user_date_proposal,okay schedule me for wednesday morning hours,okay schedule wednesday morning hour
+user_date_proposal,tomorrow at nine in the morning,tomorrow nine morning
+user_date_proposal,i prefer tuesday morning is that possible,prefer tuesday morning possible
+affirm,"yes, tomorrow is great",yes tomorrow great
+affirm,monday morning works for me,monday morning work
+affirm,okay i'll try and be there at nine,okay ill try nine
+affirm,thanks tomorrow at three pm is perfect,thanks tomorrow three pm perfect
+affirm,yes thursday at noon works,yes thursday noon work
+affirm,actually yes ten am would be perfect thank you so much,actually yes ten would perfect thank much
+affirm,thanks nine in the morning works for me see you then,thanks nine morning work see
+affirm,perfect,perfect
+affirm,not bad i'll come on tuesday then,bad ill come tuesday
+affirm,no actually monday morning ten am is good,no actually monday morning ten good
+affirm,yes thursday the twentieth at ten works for me,yes thursday twentieth ten work
+affirm,yes this is convenient for me,yes convenient
+affirm,yes that's it thank you and see you at five,yes thats thank see five
+affirm,sure i will bring it in as soon at you open,sure bring soon open
+affirm,wednesday will do then,wednesday
+affirm,um okay i guess ten works,um okay guess ten work
+affirm,yes,yes
+affirm,perfect yes that works,perfect yes work
+affirm,yes this works,yes work
+affirm,yes i can drop the car off in an hour,yes drop car hour
+deny,evenings do not work sorry,evening work sorry
+deny,no i can't come then,no cant come
+deny,no i can't in the morning,no cant morning
+deny,no next week i am not available,no next week available
+deny,no,no
+deny,no i can't then,no cant
+deny,i can't so early in the morning,cant early morning
+deny,i can't make it then,cant make
+deny,mornings do not work,morning work
+deny,that's so unfortunate for me what other options do i have,thats unfortunate option
+deny,no tuesday is not a good time,no tuesday good time
+deny,yeah no i can't come in this week and i can't commit to next week either,yeah no cant come week cant commit next week either
+deny,this is not that convenient,convenient
+deny,no thursday doesn't work for me,no thursday doesnt work
+deny,sorry thursday is not good for me,sorry thursday good
+deny,not this wednesday,wednesday
+deny,that wouldn't work for me is there any other available date,wouldnt work available date
+deny,sorry i won't be able to come then,sorry wont able come
+deny,tomorrow is not an option,tomorrow option
+deny,that's too far away,thats far away
+deny,this week doesn't work,week doesnt work
+deny,not really,really
+deny,monday doesn't work sorry,monday doesnt work sorry
+deny,i can't come then i busy,cant come busy
+deny,i think that may be too soon,think may soon
+deny,no i can't come on thursday,no cant come thursday
+deny,no that's a bit early for me,no thats bit early

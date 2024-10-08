@@ -1,0 +1,790 @@
+[
+  {
+    "intent": "book_appointment",
+    "text": "i have a problem with my car and i want to bring it in for a service"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "my name is mary smith and i would like to have my car repaired will you be open tomorrow"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i would like to book the earliest appointment available to come drop off my car"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i want to book an appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i would like to schedule an appointment for an oil change for tuesday if possible"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi my name is sarah jones i would like to bring in my car for a service this week in the morning is it possible"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i'm calling to make an inspection appointment my car needs to be looked at"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "good evening i would want to make a repair appointment for my car"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "my car is making a strange noise when is the next appointment you have available"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i want to come in tomorrow to have my car looked at"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hey there i need to make an appointment to repair my air filter"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hello i'd like to bring my car in for a basic servicing"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i want someone to fix my car tomorrow"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i want to make an appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i want to come in tomorrow morning to have my car repaired"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "can i book an appointment for my car for next week"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "the engine of my car seems to be overheating; can you please set up an appointment for tomorrow morning"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need to have an appointment scheduled for today afternoon if possible"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i would like to schedule an appointment for an oil change"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi i was hoping to schedule an appointment to get my tire patched"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi my name is jessica parker i'd like to bring my car in for service"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need to get my car serviced and would appreciate your help with setting up an appointment next week"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hello can you please assist with setting up an appointment for car servicing sometime this week"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "good morning my name is pat wilson i am calling because i got in an accident with my car the other day and i need to get it fixed"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need an appointment for body work"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need an appointment for my car"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need an appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "which is the best day and time to bring my porsche for inspection"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i am calling to schedule a service appointment as soon as possible"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "my car is due for a technical check when can i bring it in"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i'd like to have an appointment for checking the engine of my car for next week"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "my name is maria smith i want to schedule a car service appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i want to make an appointment for an oil change and some inspection"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "how do i get an appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi my car is acting weird so i would like to schedule an inspection"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need an appointment for my car when do you have slots"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need to make an appointment to get the battery replaced"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi i'm calling to book an appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i would like to make an appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need to schedule a car service appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi i have some issues with my bmw and i would like to bring it in for a service"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "i need to come in tomorrow for an oil change"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "can i schedule an appointment for this week"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "please schedule an appointment for thursday afternoon"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi i was told that i need to bring my car in for service"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hello i have a problem with my bmw and i want to bring it in for a service this friday if possible"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "my car needs to have service done this week"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi do you have any appointments for next week for oil change"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "can i schedule an appointment"
+  },
+  {
+    "intent": "book_appointment",
+    "text": "hi this is jenny smith calling to see if it would be possible to have my car serviced"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "are there any available slots in the coming week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "what is the latest possible in the afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "is tomorrow afternoon available"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i was hoping tomorrow at two pm"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "maybe we could do thursday since i will be gone on friday and saturday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "no i am sorry i cannot what about next week wednesday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "could i do two thirty on friday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "how about this friday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "how about during the weekend"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "yes that's fine can i push the appointment to thursday morning"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "do you have anything later in the day i'm busy in the mornings"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i can come next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i rarely have time tuesday mornings but the afternoons are fine"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "what about later today"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "fine then i'll drop my truck tomorrow morning at eight"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "no i am sorry i cannot what about saturday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "next month would be much better"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "okay i don't think i would be able to make it until later that afternoon so let's aim for monday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "could i come in at noon instead of two pm"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i am busy on wednesday but i can come thursday or next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i think eight am is pushing it how about nine"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i need my car for the week but i can drop it off during the weekend"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "two thirty pm will simply not work as well as one fifteen pm"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "when is the next available appointment this week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "how about before the end of next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i am fine with anytime on thursday or friday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "an evening slot will be preferred"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i don't believe thursday will work would wednesday or friday be okay"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "thank you i have commitments tomorrow morning but i can come in during the afternoon or the next day"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "let's organize an appointment in the morning because i don't want to have to run around in the afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "mornings work better for me"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i need an appointment when do you have one available on any afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "my schedule is free on wednesdays and thursdays afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "is it doable to book a slot at four or five o'clock since i'm unavailable at one"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "ten thirty am sits better with me than twelve pm does"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "ten thirty am sits better with me than twelve pm does"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i can't come in on friday but i can on thursday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "this week does not work for me do you have time slots next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "actually let's make it on thursday next week at eleven"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i will be free next monday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "no either next monday or tuesday would work great"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "wednesday will work unless your only times are before two pm"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "thursday doesn't work but monday or tuesday next week would be perfect"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i actually need my car at eleven am could i bring it by around one pm instead"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i'm helping my friend move into her new house on thursday so let's aim for next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i'll be with my family all day saturday so i would like to come earlier in the week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i probably can't make it happen then so can i make an appointment for next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "this is not that convenient how about next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "do you have any slots in the afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "yeah it's fine but i think i will bring my car tomorrow is that okay"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "evenings suit me better"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i can't come so early is there an availability later on the same date"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "on friday the thirteenth"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "will the twenty third be okay"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i can't bring it in until i get off work at three so the morning will not work"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i want to come in as soon as possible maybe eight am rather than nine am or later"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i have a meeting all morning but two pm should work"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "what about early morning tomorrow"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "can i drop my car off tonight"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "well you should have given me the available time five thirty will do"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "can i bring the car sometime this week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i can make wednesday afternoon work but the morning is impossible"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "can i reschedule my appointment for ten am instead of eleven am"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "anytime tomorrow would be great can i come in around two thirty"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "put me down for thursday afternoon instead of wednesday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "how about next week do you have something free"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "wednesday is great but tuesday is not"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "would you happen to have space earlier than eleven am since i'm already double booked that afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "how about three pm"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i have to run errands all week can you schedule me for next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "tomorrow wednesday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i just got called into work today can i reschedule for tomorrow"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i need an appointment in the middle of the day if possible but i can't do this week next monday or tuesday would be best"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "monday is too far how about thursday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "doesn't work either could you check for wednesday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "today in the afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i don't think i'll be able to come in tomorrow do you have anything on wednesday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i'm sure ten am would fit better in my schedule compared to three pm"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "no actually thursday is good"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "tomorrow is a no but thursday or friday could work"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "do you have some time in the afternoon let's say one thirty or two"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "next week i am open except for wednesday and thursday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "do you have any time slot for tomorrow afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "something has come up in my schedule can i come in tomorrow instead of today"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "anything this thursday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "between those choices i would prefer wednesday to thursday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "no i'll be at work why don't we do it in the morning around nine will that work"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "if you have anything for tomorrow or if not next friday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "is there any way i could come get this oil change before next week"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "actually i wanted to drop it on friday then pick it on tuesday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "tomorrow is not good for me how about the day after tomorrow"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "how about tomorrow afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "no doesn't work is there something on tuesday at seven pm"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i'm going to have to reschedule my appointment that's currently for tuesday does friday work"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i am rather busy again are you sure there's no way to get my car dropped off wednesday"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "let's aim to schedule for midday instead of the late afternoon"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i can move things around to come in at eleven am rather than three pm"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "okay schedule me for wednesday morning hours"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "tomorrow at nine in the morning"
+  },
+  {
+    "intent": "user_date_proposal",
+    "text": "i prefer tuesday morning is that possible"
+  },
+  {
+    "intent": "affirm",
+    "text": "yes, tomorrow is great"
+  },
+  {
+    "intent": "affirm",
+    "text": "monday morning works for me"
+  },
+  {
+    "intent": "affirm",
+    "text": "okay i'll try and be there at nine"
+  },
+  {
+    "intent": "affirm",
+    "text": "thanks tomorrow at three pm is perfect"
+  },
+  {
+    "intent": "affirm",
+    "text": "yes thursday at noon works"
+  },
+  {
+    "intent": "affirm",
+    "text": "actually yes ten am would be perfect thank you so much"
+  },
+  {
+    "intent": "affirm",
+    "text": "thanks nine in the morning works for me see you then"
+  },
+  {
+    "intent": "affirm",
+    "text": "perfect"
+  },
+  {
+    "intent": "affirm",
+    "text": "not bad i'll come on tuesday then"
+  },
+  {
+    "intent": "affirm",
+    "text": "no actually monday morning ten am is good"
+  },
+  {
+    "intent": "affirm",
+    "text": "yes thursday the twentieth at ten works for me"
+  },
+  {
+    "intent": "affirm",
+    "text": "yes this is convenient for me"
+  },
+  {
+    "intent": "affirm",
+    "text": "yes that's it thank you and see you at five"
+  },
+  {
+    "intent": "affirm",
+    "text": "sure i will bring it in as soon at you open"
+  },
+  {
+    "intent": "affirm",
+    "text": "wednesday will do then"
+  },
+  {
+    "intent": "affirm",
+    "text": "um okay i guess ten works"
+  },
+  {
+    "intent": "affirm",
+    "text": "yes"
+  },
+  {
+    "intent": "affirm",
+    "text": "perfect yes that works"
+  },
+  {
+    "intent": "affirm",
+    "text": "yes this works"
+  },
+  {
+    "intent": "affirm",
+    "text": "yes i can drop the car off in an hour"
+  },
+  {
+    "intent": "deny",
+    "text": "evenings do not work sorry"
+  },
+  {
+    "intent": "deny",
+    "text": "no i can't come then"
+  },
+  {
+    "intent": "deny",
+    "text": "no i can't in the morning"
+  },
+  {
+    "intent": "deny",
+    "text": "no next week i am not available"
+  },
+  {
+    "intent": "deny",
+    "text": "no"
+  },
+  {
+    "intent": "deny",
+    "text": "no i can't then"
+  },
+  {
+    "intent": "deny",
+    "text": "i can't so early in the morning"
+  },
+  {
+    "intent": "deny",
+    "text": "i can't make it then"
+  },
+  {
+    "intent": "deny",
+    "text": "mornings do not work"
+  },
+  {
+    "intent": "deny",
+    "text": "that's so unfortunate for me what other options do i have"
+  },
+  {
+    "intent": "deny",
+    "text": "no tuesday is not a good time"
+  },
+  {
+    "intent": "deny",
+    "text": "yeah no i can't come in this week and i can't commit to next week either"
+  },
+  {
+    "intent": "deny",
+    "text": "this is not that convenient"
+  },
+  {
+    "intent": "deny",
+    "text": "no thursday doesn't work for me"
+  },
+  {
+    "intent": "deny",
+    "text": "sorry thursday is not good for me"
+  },
+  {
+    "intent": "deny",
+    "text": "not this wednesday"
+  },
+  {
+    "intent": "deny",
+    "text": "that wouldn't work for me is there any other available date"
+  },
+  {
+    "intent": "deny",
+    "text": "sorry i won't be able to come then"
+  },
+  {
+    "intent": "deny",
+    "text": "tomorrow is not an option"
+  },
+  {
+    "intent": "deny",
+    "text": "that's too far away"
+  },
+  {
+    "intent": "deny",
+    "text": "this week doesn't work"
+  },
+  {
+    "intent": "deny",
+    "text": "not really"
+  },
+  {
+    "intent": "deny",
+    "text": "monday doesn't work sorry"
+  },
+  {
+    "intent": "deny",
+    "text": "i can't come then i busy"
+  },
+  {
+    "intent": "deny",
+    "text": "i think that may be too soon"
+  },
+  {
+    "intent": "deny",
+    "text": "no i can't come on thursday"
+  },
+  {
+    "intent": "deny",
+    "text": "no that's a bit early for me"
+  }
+]

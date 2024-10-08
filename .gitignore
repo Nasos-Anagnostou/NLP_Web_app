@@ -1,0 +1,6 @@
+# Ignore virtual environment
+nlp_project_env/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
