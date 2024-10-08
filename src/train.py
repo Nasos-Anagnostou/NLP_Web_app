@@ -20,13 +20,19 @@ def train_model(df):
         X, y, test_size=0.2, random_state=42, stratify=y
     )
     
-    # Vectorization
-    vectorizer = TfidfVectorizer()
+    # # Vectorization
+    # vectorizer = TfidfVectorizer()
+    # Vectorization with bigrams
+    vectorizer = TfidfVectorizer(ngram_range=(1, 2))  # Using unigrams and bigrams
+    
     X_train_tfidf = vectorizer.fit_transform(X_train)
     X_test_tfidf = vectorizer.transform(X_test)
     
-    # Model Training
-    clf = LogisticRegression(max_iter=1000)
+    # # Model Training
+    # clf = LogisticRegression(max_iter=1000)
+    # Model Training with class weights to handle imbalance
+    clf = LogisticRegression(max_iter=1000, class_weight='balanced')
+
     clf.fit(X_train_tfidf, y_train)
     
     # Evaluation

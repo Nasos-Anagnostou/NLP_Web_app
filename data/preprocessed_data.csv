@@ -54,7 +54,7 @@ user_date_proposal,what is the latest possible in the afternoon,latest possible 
 user_date_proposal,is tomorrow afternoon available,tomorrow afternoon available
 user_date_proposal,i was hoping tomorrow at two pm,hoping tomorrow two pm
 user_date_proposal,maybe we could do thursday since i will be gone on friday and saturday,maybe could thursday since gone friday saturday
-user_date_proposal,no i am sorry i cannot what about next week wednesday,no sorry next week wednesday
+user_date_proposal,no i am sorry i cannot what about next week wednesday,no sorry not next week wednesday
 user_date_proposal,could i do two thirty on friday,could two thirty friday
 user_date_proposal,how about this friday,friday
 user_date_proposal,how about during the weekend,weekend
@@ -64,14 +64,14 @@ user_date_proposal,i can come next week,come next week
 user_date_proposal,i rarely have time tuesday mornings but the afternoons are fine,rarely time tuesday morning afternoon fine
 user_date_proposal,what about later today,later today
 user_date_proposal,fine then i'll drop my truck tomorrow morning at eight,fine ill drop truck tomorrow morning eight
-user_date_proposal,no i am sorry i cannot what about saturday,no sorry saturday
+user_date_proposal,no i am sorry i cannot what about saturday,no sorry not saturday
 user_date_proposal,next month would be much better,next month would much better
 user_date_proposal,okay i don't think i would be able to make it until later that afternoon so let's aim for monday,okay dont think would able make later afternoon let aim monday
 user_date_proposal,could i come in at noon instead of two pm,could come noon instead two pm
 user_date_proposal,i am busy on wednesday but i can come thursday or next week,busy wednesday come thursday next week
 user_date_proposal,i think eight am is pushing it how about nine,think eight pushing nine
 user_date_proposal,i need my car for the week but i can drop it off during the weekend,need car week drop weekend
-user_date_proposal,two thirty pm will simply not work as well as one fifteen pm,two thirty pm simply work well one fifteen pm
+user_date_proposal,two thirty pm will simply not work as well as one fifteen pm,two thirty pm simply not work well one fifteen pm
 user_date_proposal,when is the next available appointment this week,next available appointment week
 user_date_proposal,how about before the end of next week,end next week
 user_date_proposal,i am fine with anytime on thursday or friday,fine anytime thursday friday
@@ -86,7 +86,7 @@ user_date_proposal,is it doable to book a slot at four or five o'clock since i'm
 user_date_proposal,ten thirty am sits better with me than twelve pm does,ten thirty sits better twelve pm
 user_date_proposal,ten thirty am sits better with me than twelve pm does,ten thirty sits better twelve pm
 user_date_proposal,i can't come in on friday but i can on thursday,cant come friday thursday
-user_date_proposal,this week does not work for me do you have time slots next week,week work time slot next week
+user_date_proposal,this week does not work for me do you have time slots next week,week not work time slot next week
 user_date_proposal,actually let's make it on thursday next week at eleven,actually let make thursday next week eleven
 user_date_proposal,i will be free next monday,free next monday
 user_date_proposal,no either next monday or tuesday would work great,no either next monday tuesday would work great
@@ -96,14 +96,14 @@ user_date_proposal,i actually need my car at eleven am could i bring it by aroun
 user_date_proposal,i'm helping my friend move into her new house on thursday so let's aim for next week,im helping friend move new house thursday let aim next week
 user_date_proposal,i'll be with my family all day saturday so i would like to come earlier in the week,ill family day saturday would like come earlier week
 user_date_proposal,i probably can't make it happen then so can i make an appointment for next week,probably cant make happen make appointment next week
-user_date_proposal,this is not that convenient how about next week,convenient next week
+user_date_proposal,this is not that convenient how about next week,not convenient next week
 user_date_proposal,do you have any slots in the afternoon,slot afternoon
 user_date_proposal,yeah it's fine but i think i will bring my car tomorrow is that okay,yeah fine think bring car tomorrow okay
 user_date_proposal,evenings suit me better,evening suit better
 user_date_proposal,i can't come so early is there an availability later on the same date,cant come early availability later date
 user_date_proposal,on friday the thirteenth,friday thirteenth
 user_date_proposal,will the twenty third be okay,twenty third okay
-user_date_proposal,i can't bring it in until i get off work at three so the morning will not work,cant bring get work three morning work
+user_date_proposal,i can't bring it in until i get off work at three so the morning will not work,cant bring get work three morning not work
 user_date_proposal,i want to come in as soon as possible maybe eight am rather than nine am or later,want come soon possible maybe eight rather nine later
 user_date_proposal,i have a meeting all morning but two pm should work,meeting morning two pm work
 user_date_proposal,what about early morning tomorrow,early morning tomorrow
@@ -115,7 +115,7 @@ user_date_proposal,can i reschedule my appointment for ten am instead of eleven 
 user_date_proposal,anytime tomorrow would be great can i come in around two thirty,anytime tomorrow would great come around two thirty
 user_date_proposal,put me down for thursday afternoon instead of wednesday,put thursday afternoon instead wednesday
 user_date_proposal,how about next week do you have something free,next week something free
-user_date_proposal,wednesday is great but tuesday is not,wednesday great tuesday
+user_date_proposal,wednesday is great but tuesday is not,wednesday great tuesday not
 user_date_proposal,would you happen to have space earlier than eleven am since i'm already double booked that afternoon,would happen space earlier eleven since im already double booked afternoon
 user_date_proposal,how about three pm,three pm
 user_date_proposal,i have to run errands all week can you schedule me for next week,run errand week schedule next week
@@ -136,10 +136,10 @@ user_date_proposal,something has come up in my schedule can i come in tomorrow i
 user_date_proposal,anything this thursday,anything thursday
 user_date_proposal,between those choices i would prefer wednesday to thursday,choice would prefer wednesday thursday
 user_date_proposal,no i'll be at work why don't we do it in the morning around nine will that work,no ill work dont morning around nine work
-user_date_proposal,if you have anything for tomorrow or if not next friday,anything tomorrow next friday
+user_date_proposal,if you have anything for tomorrow or if not next friday,anything tomorrow not next friday
 user_date_proposal,is there any way i could come get this oil change before next week,way could come get oil change next week
 user_date_proposal,actually i wanted to drop it on friday then pick it on tuesday,actually wanted drop friday pick tuesday
-user_date_proposal,tomorrow is not good for me how about the day after tomorrow,tomorrow good day tomorrow
+user_date_proposal,tomorrow is not good for me how about the day after tomorrow,tomorrow not good day tomorrow
 user_date_proposal,how about tomorrow afternoon,tomorrow afternoon
 user_date_proposal,no doesn't work is there something on tuesday at seven pm,no doesnt work something tuesday seven pm
 user_date_proposal,i'm going to have to reschedule my appointment that's currently for tuesday does friday work,im going reschedule appointment thats currently tuesday friday work
@@ -157,7 +157,7 @@ affirm,yes thursday at noon works,yes thursday noon work
 affirm,actually yes ten am would be perfect thank you so much,actually yes ten would perfect thank much
 affirm,thanks nine in the morning works for me see you then,thanks nine morning work see
 affirm,perfect,perfect
-affirm,not bad i'll come on tuesday then,bad ill come tuesday
+affirm,not bad i'll come on tuesday then,not bad ill come tuesday
 affirm,no actually monday morning ten am is good,no actually monday morning ten good
 affirm,yes thursday the twentieth at ten works for me,yes thursday twentieth ten work
 affirm,yes this is convenient for me,yes convenient
@@ -169,28 +169,28 @@ affirm,yes,yes
 affirm,perfect yes that works,perfect yes work
 affirm,yes this works,yes work
 affirm,yes i can drop the car off in an hour,yes drop car hour
-deny,evenings do not work sorry,evening work sorry
+deny,evenings do not work sorry,evening not work sorry
 deny,no i can't come then,no cant come
 deny,no i can't in the morning,no cant morning
-deny,no next week i am not available,no next week available
+deny,no next week i am not available,no next week not available
 deny,no,no
 deny,no i can't then,no cant
 deny,i can't so early in the morning,cant early morning
 deny,i can't make it then,cant make
-deny,mornings do not work,morning work
+deny,mornings do not work,morning not work
 deny,that's so unfortunate for me what other options do i have,thats unfortunate option
-deny,no tuesday is not a good time,no tuesday good time
+deny,no tuesday is not a good time,no tuesday not good time
 deny,yeah no i can't come in this week and i can't commit to next week either,yeah no cant come week cant commit next week either
-deny,this is not that convenient,convenient
+deny,this is not that convenient,not convenient
 deny,no thursday doesn't work for me,no thursday doesnt work
-deny,sorry thursday is not good for me,sorry thursday good
-deny,not this wednesday,wednesday
+deny,sorry thursday is not good for me,sorry thursday not good
+deny,not this wednesday,not wednesday
 deny,that wouldn't work for me is there any other available date,wouldnt work available date
 deny,sorry i won't be able to come then,sorry wont able come
-deny,tomorrow is not an option,tomorrow option
+deny,tomorrow is not an option,tomorrow not option
 deny,that's too far away,thats far away
 deny,this week doesn't work,week doesnt work
-deny,not really,really
+deny,not really,not really
 deny,monday doesn't work sorry,monday doesnt work sorry
 deny,i can't come then i busy,cant come busy
 deny,i think that may be too soon,think may soon

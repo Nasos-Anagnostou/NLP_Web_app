@@ -7,6 +7,9 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 def load_data(filepath):
     with open(filepath, 'r') as f:
@@ -17,14 +20,12 @@ def load_data(filepath):
 def preprocess_text(text):
     # Lowercase
     text = text.lower()
-    # Remove punctuation
-    text = text.translate(str.maketrans('', '', string.punctuation))
+    # Remove punctuation but keep important ones like '?'
+    text = text.translate(str.maketrans('', '', string.punctuation.replace("?", "")))
     # Tokenize
     tokens = nltk.word_tokenize(text)
-    # Remove stopwords
-    stop_words = set(stopwords.words('english'))
-    stop_words.discard('yes')
-    stop_words.discard('no')
+    # Remove stopwords (but keep crucial ones like "no", "not", "yes")
+    stop_words = set(stopwords.words('english')) - {'no', 'not', 'yes'}
     tokens = [word for word in tokens if word not in stop_words]
     # Lemmatization
     lemmatizer = WordNetLemmatizer()
