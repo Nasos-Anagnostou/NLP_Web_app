@@ -1,44 +1,52 @@
-import streamlit as st
-import pandas as pd
-import sqlite3
-import matplotlib.pyplot as plt
-from custom_funct import init_db, add_bg_from_url
+# Import necessary libraries
+import streamlit as st  # Streamlit for building the web app UI
+import pandas as pd  # For handling data with DataFrames
+import sqlite3  # To interact with the SQLite database
+from custom_funct import init_db, add_bg_from_url  # Custom functions for database initialization and background setup
 
-# Page configuration for the history page
-st.set_page_config(page_title="Prediction History", page_icon="📜", layout="centered", initial_sidebar_state="expanded")
+# Configure the Streamlit page for the history display
+st.set_page_config(
+    page_title="Prediction History",  # Title of the web page
+    page_icon="📜",  # Icon displayed in the tab
+    layout="wide",  # Use full width of the page for a wide layout
+    initial_sidebar_state="expanded"  # Expand the sidebar by default
+)
 
-# Add background
+# Set background image for the page
 add_bg_from_url()
 
-# Connect to database
+# Connect to the SQLite database using the init_db function (which creates the table if it doesn't exist)
 conn = init_db()
-c = conn.cursor()
+c = conn.cursor()  # Create a cursor object to interact with the database
 
-# Show Prediction History
+# Display the title of the history page
 st.title("Prediction History")
 
+# Try to fetch and display the prediction history from the database
 try:
+    # SQL query to retrieve the last 100 prediction records from the 'history' table
     history_df = pd.read_sql_query("SELECT * FROM history ORDER BY id DESC LIMIT 100", conn)
+    
+    # Check if the DataFrame is empty (i.e., no history records)
     if history_df.empty:
-        st.info("No history to show.")
+        st.info("No history to show.")  # Show a message if no records are found
     else:
-        st.write("Here is the history of all predictions:")
-        st.dataframe(history_df)
+        st.write("Here is the history of all predictions:")  # Text above the table
 
-        # Plotting confidence distribution
-        fig, ax = plt.subplots()
-        ax.hist(history_df['confidence'], bins=10, color='blue', edgecolor='black')
-        ax.set_title('Confidence Distribution of Predictions')
-        ax.set_xlabel('Confidence')
-        ax.set_ylabel('Frequency')
-        st.pyplot(fig)
-
-        # Download history button
-        csv = history_df.to_csv(index=False)
-        st.download_button(label="Download history as CSV", data=csv, mime="text/csv")
+        # Display the retrieved history as a table with container width for full-page width
+        st.dataframe(history_df, use_container_width=True)
+        
+        # Allow the user to download the history as a CSV file
+        csv = history_df.to_csv(index=False)  # Convert DataFrame to CSV format without index column
+        st.download_button(
+            label="Download history as CSV",  # Label for the download button
+            data=csv,  # CSV data to be downloaded
+            mime="text/csv"  # MIME type for CSV
+        )
 except Exception as e:
+    # If any error occurs while fetching the data, display the error message
     st.error(f"An error occurred while fetching history: {e}")
 
-# Close database connection
+# Close the database connection at the end of the script
 if 'conn' in locals():
     conn.close()
