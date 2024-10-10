@@ -1,9 +1,0 @@
-[[pages]]
-path = "../src/app.py"
-name = "Home"
-icon = "🏠"
-
-[[pages]]
-path = "../src/pages/history.py"
-name = "Prediction History"
-icon = "📄"
