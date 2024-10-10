@@ -13,7 +13,6 @@ import requests
 
 # Utility function to add empty lines in the Streamlit UI
 def empty_line(lines=1):
-    """Add empty lines (spaces) in the Streamlit app UI."""
     for _ in range(lines):
         st.write("")
 
@@ -21,12 +20,6 @@ def empty_line(lines=1):
 # Function to add a logo in the sidebar with optional text below the logo
 def add_logo(logo_url: str, width_percent: float = 0.8, height: int = 220, text_below_logo: str = None):
     """Adds a logo at the top of the navigation page/sidebar of the Streamlit app.
-    
-    Args:
-        logo_url (str): URL or local path to the logo image.
-        width_percent (float): Proportion of sidebar width for the logo.
-        height (int): Padding-top for positioning the logo.
-        text_below_logo (str): Optional text to display under the logo.
     """
     try:
         # Check if the logo_url is a valid URL or a local path
@@ -144,7 +137,7 @@ def init_db():
 
 # Predict the intent of the user input and calculate the confidence score
 def predict_intent(user_input, clf, vectorizer):
-    
+
     # Transform the input text using the vectorizer and predict using the model
     input_vector = vectorizer.transform([user_input])
     prediction = clf.predict(input_vector)[0]

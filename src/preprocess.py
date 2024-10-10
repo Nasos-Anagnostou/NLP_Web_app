@@ -15,14 +15,7 @@ nltk.download('wordnet')  # WordNet lemmatizer
 
 # Function to load JSON data into a DataFrame
 def load_data(filepath):
-    """Loads data from a JSON file and returns it as a Pandas DataFrame.
-    
-    Args:
-        filepath (str): Path to the JSON file.
 
-    Returns:
-        pd.DataFrame: Data loaded into a DataFrame.
-    """
     with open(filepath, 'r') as f:
         data = json.load(f)  # Load JSON data
     df = pd.DataFrame(data)  # Convert JSON to DataFrame
@@ -33,12 +26,6 @@ def preprocess_text(text):
     """Preprocesses a given text by lowercasing, removing punctuation, tokenizing, 
     removing stopwords (except for crucial ones like 'no', 'not', 'yes'), 
     and lemmatizing the tokens.
-    
-    Args:
-        text (str): Input text to preprocess.
-    
-    Returns:
-        str: Preprocessed text as a single string.
     """
     # Lowercase the text
     text = text.lower()
@@ -66,38 +53,15 @@ def preprocess_text(text):
 
 # Function to apply preprocessing to an entire DataFrame
 def preprocess_dataframe(df):
-    """Applies text preprocessing to the 'text' column of a DataFrame.
-    
-    Args:
-        df (pd.DataFrame): DataFrame containing a 'text' column with raw text.
-    
-    Returns:
-        pd.DataFrame: DataFrame with an additional 'clean_text' column containing preprocessed text.
-    """
+
     df['clean_text'] = df['text'].apply(preprocess_text)  # Apply preprocessing to each row
     return df
 
 ############# Exploratory Data Analysis (EDA) Functions #############
 
-# Function to load preprocessed data from a CSV file
-def load_preprocessed_data(filepath):
-    """Loads preprocessed data from a CSV file.
-    
-    Args:
-        filepath (str): Path to the preprocessed CSV file.
-    
-    Returns:
-        pd.DataFrame: Data loaded into a DataFrame.
-    """
-    return pd.read_csv(filepath)
-
 # Function to plot the distribution of intents in the dataset
 def plot_class_distribution(df):
-    """Plots the distribution of intents in the dataset using a count plot.
-    
-    Args:
-        df (pd.DataFrame): DataFrame containing the 'intent' column.
-    """
+ 
     plt.figure(figsize=(8,6))  # Set the plot size
     sns.countplot(x='intent', data=df)  # Create a count plot for the 'intent' column
     plt.title('Intent Distribution')  # Title of the plot

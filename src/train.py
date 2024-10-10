@@ -8,14 +8,7 @@ import joblib  # For saving trained models
 
 # Function to load preprocessed data from a CSV file
 def load_preprocessed_data(filepath):
-    """Loads preprocessed data from a CSV file.
     
-    Args:
-        filepath (str): Path to the preprocessed CSV file.
-    
-    Returns:
-        pd.DataFrame: DataFrame containing the preprocessed data.
-    """
     return pd.read_csv(filepath)
 
 # Function to train the intent classification model
@@ -24,12 +17,6 @@ def train_model(df):
     
     The model predicts the intent of the input text based on the cleaned and tokenized text.
     It uses TF-IDF vectorization with bigrams (unigrams and bigrams) and applies class balancing.
-    
-    Args:
-        df (pd.DataFrame): DataFrame containing preprocessed text data and intent labels.
-    
-    Returns:
-        None: The function saves the trained model and the TF-IDF vectorizer as .pkl files.
     """
     
     # Replace NaN values in the 'clean_text' column with values from the 'text' column if any exist
