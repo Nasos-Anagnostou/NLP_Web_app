@@ -54,7 +54,7 @@ st.session_state["user_input"] = col1.text_input(
 
 with col2:
     # Example sentence options
-    example_options = ["Book an appointment", "Cancel my meeting", "Reschedule my consultation"]
+    example_options = ["Book an appointment", "Yes it works for me", "Reschedule my consultation", "I am not available"]
     
     # Dropdown box to select from pre-defined example sentences
     selected_example = st.selectbox(

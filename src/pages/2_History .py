@@ -2,7 +2,9 @@
 import streamlit as st  # Streamlit for building the web app UI
 import pandas as pd  # For handling data with DataFrames
 import sqlite3  # To interact with the SQLite database
-from custom_funct import init_db, add_bg_from_url  # Custom functions for database initialization and background setup
+from custom_funct import empty_line,init_db, add_bg_from_url  # Custom functions for database initialization and background setup
+import plotly.express as px  # For plotting the confidence distribution
+
 
 # Configure the Streamlit page for the history display
 st.set_page_config(
@@ -43,9 +45,30 @@ try:
             data=csv,  # CSV data to be downloaded
             mime="text/csv"  # MIME type for CSV
         )
+
+        empty_line(2)    
+        if st.button("Plot the Confidence Distribution"):
+            # Plotting with Plotly for interactivity
+            fig = px.histogram(
+                history_df, 
+                x='confidence', 
+                nbins=10, 
+                title="Confidence Distribution of Predictions", 
+                labels={'confidence': 'Confidence'},
+                template='plotly_dark'  # Dark theme for better visual
+            )
+            fig.update_layout(
+                title_font_size=16,
+                xaxis_title='Confidence',
+                yaxis_title='Frequency',
+                bargap=0.2
+            )
+            st.plotly_chart(fig)
+
 except Exception as e:
     # If any error occurs while fetching the data, display the error message
     st.error(f"An error occurred while fetching history: {e}")
+
 
 # Close the database connection at the end of the script
 if 'conn' in locals():
