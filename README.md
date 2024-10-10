@@ -21,5 +21,5 @@ This project builds an NLU system to classify user intents for booking appointme
 
 1. **Clone the Repository:**
    ```bash
-   git clone (https://github.com/Nasos-Anagnostou/NLP_Web_app.git)
+   git clone https://github.com/Nasos-Anagnostou/NLP_Web_app.git
    cd nlu_project
